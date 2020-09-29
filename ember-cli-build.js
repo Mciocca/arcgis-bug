@@ -5,6 +5,12 @@ const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
     // Add options here
+    amd: {
+      // loader path can be a CDN path or a relative path in the dist folder
+      loader: 'https://js.arcgis.com/4.16/',
+      // all AMD packages used in import statements in the application.
+      packages: ['esri']
+    }
   });
 
   // Use `app.import` to add additional libraries to the generated

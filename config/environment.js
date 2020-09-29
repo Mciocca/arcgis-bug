@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'arcgis-test',
     environment,
-    rootURL: '/',
+    rootURL: '/blog/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
