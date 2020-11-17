@@ -4587,10 +4587,10 @@ ember-auto-import@^1.5.3:
     walk-sync "^0.3.3"
     webpack "~4.28"
 
-ember-cli-amd@^3.1.3:
-  version "3.1.3"
-  resolved "https://registry.yarnpkg.com/ember-cli-amd/-/ember-cli-amd-3.1.3.tgz#afa2c424dcb58522afb11da97eb4104df86b7d50"
-  integrity sha512-o5KMp2c2ia269Yuhx6e5WTv9HDHWjW3gIXyPDFSgQueXdqcKyzVnfkFLQit2sESx/7egomE2w8Wo3nZ8iPCWvQ==
+ember-cli-amd@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-amd/-/ember-cli-amd-3.2.1.tgz#0410d19cf02d879f233c9a395f64537f09fc597b"
+  integrity sha512-4berP5SByFLRNcvrkm22zYWARjci8NEhnz0VUzD3xlnM+L+fVIYp7Cwf3Kv2dDcn+KThhUylT7wfAKxwi5Blsg==
   dependencies:
     "@babel/generator" "^7.10.5"
     "@babel/parser" "^7.10.5"
